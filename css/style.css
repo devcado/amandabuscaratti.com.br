@@ -1,0 +1,25 @@
+body {
+  margin:0;
+  padding:0;
+  border:0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #555;
+  font-size: 16px;
+  height: 100%;
+  width: 100%;
+}
+
+img .banner, .logo {
+  max-width: 100%;
+  width: auto;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
