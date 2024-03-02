@@ -1,2 +1,2 @@
-# pousadaaltodocapivari.com.br
-https://pousadaaltodocapivari.com.br
+# amandabuscaratti.com.br
+https://amandabuscaratti.com.br
