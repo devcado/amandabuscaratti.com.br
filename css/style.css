@@ -14,8 +14,8 @@ body:before {
 }
 
 header {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #aed8af;
+  color: #096d54;
   text-align: center;
   padding: 20px;
   position: fixed;
@@ -34,10 +34,14 @@ section {
 
 h1 {
   color: #00281c;
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
-  color: #4caf50;
+  color: #027260;
+  padding: 10px;
+  margin: 0;
 }
 
 footer {
@@ -57,11 +61,10 @@ a:hover {
 }
 
 .banner, .logo {
-  max-width: 100%;
+  max-width: 50%;
   width: auto;
   height: 100%;
 }
-
 
 nav ul {
   list-style-type: none;
@@ -81,20 +84,14 @@ nav ul li a {
   border-radius: 5px;
 }
 
-#map-container {
-  width: 100%;
-  height: 400px;
-  position: relative;
-  overflow: hidden;
-}
-
-#map {
-  width: 100%;
+img {
+  max-width: 100%;
   height: 100%;
-  border: none;
+  object-fit: cover;
 }
 
-.route-btn, .whats-btn {
+
+.btn {
   display: inline-block;
   background-color: #4caf50;
   color: #fff;
@@ -104,58 +101,18 @@ nav ul li a {
   margin-top: 20px;
 }
 
-.route-btn:hover, .whats-btn:hover {
+.btn:hover {
   background-color: #388e3c;
 }
 
-.slider {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
 
-.slider-content {
-  display: flex;
-  transition: transform 0.5s ease;
-  height: 70vh;
-  text-align: center;
-}
-
-.slider-item {
-  flex: 0 0 100%;
-  max-width: 100%;
-}
-
-img {
-  max-width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  z-index: 1000;
-}
-
-.prev {
-  left: 10px;
-}
-
-.next {
-  right: 10px;
-}
 
 @media (max-width: 768px){
   h1 {
     font-size: 16px;
+  }
+  h2 {
+    font-size: 12px;
   }
   nav {
     margin: 0;
